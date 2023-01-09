@@ -26,7 +26,7 @@ jobs:
     needs: DEV
 
     steps:
-      - uses: action/checkout@v2
+      - uses: actions/checkout@v2
       - name: Run a script
         run: |
           echo "I am running a job in the QA environment"
