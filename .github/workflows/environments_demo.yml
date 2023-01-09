@@ -32,7 +32,7 @@ jobs:
           echo "I am running a job in the QA environment"
         
   PROD:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     environment: PROD
     needs: QA
     steps:
